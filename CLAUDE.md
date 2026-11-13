@@ -62,6 +62,9 @@ suffixes.)
   ledger, `/lectures/` index). `assets/js/sidenotes.js`. (Renamed from `static/`.)
 - `assets/documents/` — gitignored local source material (old internal syllabus
   drafts with to-dos and `XXX` dates). **Not published.**
+- `assets/readings/` — locally hosted reading files (e.g. L16's Ben Buchanan
+  packet). A reading's `url:` may be a site path like `/assets/readings/…`;
+  `_includes/readings.html` routes any `url` without `://` through `relative_url`.
 - `assets/syllabus.pdf` — the public (instructor-issued "[EXTERNAL]") syllabus,
   linked from the home page's logistics list as "Syllabus: syllabus.pdf".
 - Pages (`layout: page`) live in `pages/` — each declares its own `permalink`, so
