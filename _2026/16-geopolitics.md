@@ -24,7 +24,8 @@ readings_note: "See Canvas if you are unable to access the Kahl and Mitre readin
 readings:
   required:
     - title: "Ben Buchanan Reading Packet"
-      url: "/assets/slides/Ben%20Buchanan%20packet_Nov%2016.pdf"
+      pages: 109
+      url: "/assets/readings/Ben%20Buchanan%20packet_Nov%2016.pdf"
     - authors: "Dennis, C., et al."
       year: 2024
       title: "What Should Be Internationalised in AI Governance?"
