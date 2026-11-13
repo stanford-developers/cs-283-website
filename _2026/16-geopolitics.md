@@ -3,6 +3,7 @@ lecture: 16
 title: "Geopolitics and Global AI Governance"
 nav_title: "Geopolitics and AI Governance"
 date: 2026-11-16
+guest: "Ben Buchanan"
 unit: 6
 unit_title: "The AI Economy and Living with AI"
 deadlines:
@@ -22,6 +23,8 @@ summary: >-
 readings_note: "See Canvas if you are unable to access the Kahl and Mitre reading."
 readings:
   required:
+    - title: "Ben Buchanan Reading Packet"
+      url: "/assets/slides/Ben%20Buchanan%20packet_Nov%2016.pdf"
     - authors: "Dennis, C., et al."
       year: 2024
       title: "What Should Be Internationalised in AI Governance?"

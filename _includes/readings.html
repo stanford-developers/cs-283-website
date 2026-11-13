@@ -43,7 +43,7 @@
             <li class="reading">
               <div class="reading-body">
                 {% if r.authors %}<span class="reading-authors">{{ r.authors }}</span>{% endif %}
-                <cite class="reading-title">{% if r.url %}<a href="{{ r.url }}">{{ r.title }}</a>{% else %}{{ r.title }}{% endif %}</cite>
+                <cite class="reading-title">{% if r.url %}<a href="{% if r.url contains '://' %}{{ r.url }}{% else %}{{ r.url | relative_url }}{% endif %}">{{ r.title }}</a>{% else %}{{ r.title }}{% endif %}</cite>
                 {% if r.venue %}<span class="reading-venue">{{ r.venue }}</span>{% endif %}
               </div>
               <div class="reading-ledger">
